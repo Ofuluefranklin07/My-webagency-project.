@@ -1,0 +1,76 @@
+span{
+    color: rgb(72, 82, 216);
+}
+h1{
+    font-size: 5rem;
+}
+.logodiv{
+    margin: 10px;
+}
+*{
+    /* margin: 0px; */
+    padding: 0px;
+}
+body{
+    background-color: whitesmoke;
+    color: #111;
+    margin: 50px 50px 0 50px;
+}
+.main-card{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    
+
+    
+}
+.left-card{
+    height: 200px;
+    float: left;
+    margin-right: 50px;
+    
+}
+.right-card{
+    height: 200px;
+    float: left;
+    margin-right: 50px;
+    
+}
+footer{
+    text-align: right;
+    color: midnightblue;
+}
+text{
+    margin-left: 20px;
+    font-weight: bold;
+}
+@media (max-width: 680px) {
+  .logodiv{
+    width: 100px;
+  }
+
+  h1 {
+    font-size: 3.5rem;
+    text-align: center;
+  }
+
+  .main-card{
+    width: 100%;
+    display: block;
+    margin-bottom: 30px;
+    text-align: justify;
+  }
+
+  .right-card{
+    margin-bottom: 10px;
+    width: 100%;
+    display: inline;
+    object-fit: cover;
+  }
+  .left-card{
+    margin-bottom: 10px;
+    width: 100%;
+    display: inline;
+    object-fit: cover;
+  }
+}
